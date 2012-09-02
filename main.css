@@ -1,0 +1,95 @@
+#threeColLayout #primaryContent {
+	float:left;
+	width:270px;
+	margin: 0 0 20px 195px;
+}
+
+.box {
+	margin: 15px 0 0 0 ;
+	padding: 5px 0 5px 0;
+	background:url(./images/diags.gif);
+}
+
+.cbside {
+	width:160px;
+	margin: 5px 0 0 10px;
+	padding: 10px 0 5px 0;
+	background: #FFF;
+}
+
+#secondaryContent {
+	float:left;
+	width:270px;
+	margin: 0 0 20px 15px;
+}
+
+#sideContent {
+	float:left;
+	width:180px;
+	margin: 0 0 20px -750px;
+}
+
+#wrapper {
+	width:750px;
+	margin:0 auth;
+	padding: 0 10px 10px 10px;
+	background-color: #D7D493;
+}
+
+body.home #mainNav a#home, body.gallery #mainNav a#gallery, body.contact #mainNav a#contact {
+	color: #fff;
+}
+
+body.home #mainNav a:hover#home, body.gallery #mainNav a:hover#gallery, body.contact #mainNav a:hover#contact {
+	color: #000;
+}
+
+#mainNav
+{
+margin: 30px 0 0 0;
+padding: 0;
+width: 750px;
+height: 35px;
+font-weight: bold;
+font-size: 90%;
+}
+
+#mainNav ul
+{
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+}
+
+#mainNav li
+{
+display: block;
+margin: 0;
+padding: 0;
+float: left;
+width: auto;
+}
+
+#mainNav a
+{
+color: #D7D493;
+display: inline;
+width: auto;
+text-decoration: none;
+background: #000;
+margin: 0;
+padding: 10px 10px;
+border-right: 1px solid #FFF;
+}
+
+#mainNav a:hover, #mainNav a:active { background: #D7D493;color: #000; }
+
+#mainNav a.active:link, #mainNav a.active:visited
+{
+position: relative;
+z-index: 102;
+background: #BBB;
+color: #D7D493;
+font-weight: bold;
+}
