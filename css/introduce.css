@@ -1,0 +1,190 @@
+body {
+    font-size: 1.4em;
+    line-height: 1.7;
+}
+a {
+    color:gray;
+    text-decoration: none;
+}
+img.alignright {
+    float: right;
+}
+#hair {
+    background: url("../images/common/top_bg.jpg") repeat-x;
+    padding: 2px 0 2px 0;
+    margin: 0;
+    font-size: 0.8em;
+    min-height: 17px;
+    line-height: 30px;
+}
+#hair ul {
+    width: 940px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: right;
+    font-size: 0.7em;
+}
+#hair li {
+    display: inline;
+    margin: 0 0 0 -3px;
+    padding: 0;
+}
+#hair li:first-child:before {
+    content: "";
+}
+#hair li:before {
+    content: "|";
+}
+#hair li a {
+    padding-left: 1px;
+    font-size: 0.8em;
+}
+#nav {
+    width: 940px;
+    margin: 0 auto;
+}
+#nav a.logo {
+    background: url("../images/common/top_logo.jpg") no-repeat;
+    height: 81px;
+    width: 130px;
+    float: left;
+    margin-left: 1px;
+}
+#nav ul {
+    width: 810px;
+    margin: 0 0 0 263px;
+}
+#nav li {
+    text-align: right;
+    float: left;
+}
+#nav li a {
+    display: block;
+    height: 26px;
+    margin-top: 28px;
+}
+
+#nav li.introduce {
+    width: 123px;
+}
+#nav li.product {
+    margin-left: 25px;
+    width: 102px;
+}
+
+#nav li.portfolio {
+    margin-left: 25px;
+    width: 121px;
+}
+
+#nav li.community {
+    margin-left: 25px;
+    width: 129px;
+}
+
+#nav li.contact {
+    margin-left: -3px;
+    width: 129px;
+}
+
+#mainLogo_wrapper {
+    background: url("../images/common/bg_img.gif") no-repeat center;
+}
+
+#mainLogo {
+    width: 940px;
+    margin: 0 auto;
+    height: 152px;
+    background: url("../images/sub/sub01_visual.jpg") no-repeat;
+}
+
+#main {
+    width: 940px;
+    margin: 40px auto 0;
+}
+
+#sidebar {
+    width: 193px;
+    float: left;
+}
+#sidebar li {
+    margin-bottom: 22px;
+}
+#sidebar li a {
+    display: block;
+    width: 193px;
+    height: 23px;
+}
+
+#sidebar li.greet {
+    background: url("../images/left/left_menu01_01_off.jpg") no-repeat;
+}
+#sidebar li.greet a:hover {
+    background: url("../images/left/left_menu01_01_on.jpg") no-repeat;
+}
+#sidebar li.history {
+    background: url("../images/left/left_menu01_02_off.jpg") no-repeat;
+}
+#sidebar li.history a:hover {
+    background: url("../images/left/left_menu01_02_on.jpg") no-repeat;
+}
+#sidebar li.auth {
+    background: url("../images/left/left_menu01_03_off.jpg") no-repeat;
+}
+#sidebar li.auth a:hover {
+    background: url("../images/left/left_menu01_03_on.jpg") no-repeat;
+}
+#sidebar li.map {
+    background: url("../images/left/left_menu01_04_off.jpg") no-repeat;
+}
+#sidebar li.map a:hover {
+    background: url("../images/left/left_menu01_04_on.jpg") no-repeat;
+}
+
+#sidebar span {
+    margin-top: 72px;
+    display: block;
+    width: 193px;
+    text-align: center;
+}
+
+#content {
+    float: right;
+    width: 720px;
+    margin-left: 27px;
+}
+
+#content span {
+    float:right;
+    margin-top: -10px;
+}
+#content hr {
+    margin: 18px 0 0;
+}
+#content img.main_img {
+    margin-top: 31px;
+}
+
+#introduce #sidebar li.greet {
+    background: url("../images/left/left_menu01_01_on.jpg") no-repeat;
+}
+#history #sidebar li.history {
+    background: url("../images/left/left_menu01_02_on.jpg") no-repeat;
+}
+#auth #sidebar li.auth {
+    background: url("../images/left/left_menu01_03_on.jpg") no-repeat;
+}
+#map #sidebar li.map {
+    background: url("../images/left/left_menu01_04_on.jpg") no-repeat;
+}
+.clear {
+    clear: both;
+}
+
+#footer {
+    width: 940px;
+    margin: 50px auto 20px;
+}
+#footer img.address {
+    margin-top: 42px;
+}
