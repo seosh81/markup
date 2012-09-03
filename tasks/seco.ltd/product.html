@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>::: (주)신성SECO LED :::</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/product.css" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+
+            $('#sidebar li a').click( function(event) {
+                $('body').attr('id', $(this).parent().attr('class').split('_')[0]);
+                $('.main_img').first().attr('src', sidemenu_map[$(this).parent().attr('class')]);
+//                alert($(this).attr('class', ));
+            });
+//            $('.factory_sub02').click(function() {
+//                $('.main_img').first().attr('src', sidemenu_map[$('.factory_sub02').attr('class')]);
+//            });
+        });
+
+        var sidemenu_map = {
+            factory_sub01: "./images/sub/product_body_01.jpg",
+            factory_sub02: "./images/sub/product_body_02.jpg",
+            outdoor_sub01: "./images/sub/product_body_03.gif",
+            outdoor_sub02: "./images/sub/product_body_04.gif",
+            outdoor_sub03: "./images/sub/product_body_05.gif",
+            outdoor_sub04: "./images/sub/product_body_06.gif",
+            outdoor_sub05: "./images/sub/product_body_07.gif",
+            indoor_sub01: "./images/sub/product_body_08.gif",
+            indoor_sub02: "./images/sub/product_body_09.gif",
+            indoor_sub03: "./images/sub/product_body_10.gif",
+            indoor_sub04: "./images/sub/product_body_11.gif",
+            indoor_sub05: "./images/sub/product_body_12.gif",
+            indoor_sub06: "./images/sub/product_body_13.gif",
+            indoor_sub07: "./images/sub/product_body_14.gif",
+            indoor_sub08: "./images/sub/product_body_15.gif",
+            indoor_sub09: "./images/sub/product_body_16.gif",
+            indoor_sub10: "./images/sub/product_body_17.gif",
+            indoor_sub11: "./images/sub/product_body_18.gif",
+            indoor_sub12: "./images/sub/product_body_19.gif",
+            indoor_sub13: "./images/sub/product_body_20.gif"
+        }
+    </script>
+</head>
+<body id="factory">
+    <div id="hair">
+        <ul class="member">
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">로그인</a></li>
+        </ul>
+    </div>
+    <div id="nav">
+        <a href="#" class="logo"></a>
+        <ul>
+            <li class="introduce">
+                <a href="./introduce.html"><img src="./images/common/top_navi_01_on.jpg"/></a>
+            </li>
+            <li class="product">
+                <a href="./product.html"><img src="./images/common/top_navi_02_off.jpg"/></a>
+            </li>
+            <li class="portfolio">
+                <a href="./portfolio.html"><img src="./images/common/top_navi_03_off.jpg"/></a>
+            </li>
+            <li class="community">
+                <a href="./community.html"><img src="./images/common/top_navi_04_off.jpg"/></a>
+            </li>
+            <li class="contact">
+                <a href="./contact.html"><img src="./images/common/top_navi_05_off.jpg"/></a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div id="mainLogo_wrapper">
+        <div id="mainLogo"></div>
+    </div>
+    <div id="main">
+        <div id="sidebar">
+            <ul>
+                <li class="factory"><a href="javascript:;"></a></li>
+                <li class="factory_sub01"><a href="javascript:;"></a></li>
+                <li class="factory_sub02"><a href="javascript:;"></a></li>
+
+                <li class="outdoor"><a href="javascript:;"></a></li>
+                <li class="outdoor_sub01"><a href="javascript:;"></a></li>
+                <li class="outdoor_sub02"><a href="javascript:;"></a></li>
+                <li class="outdoor_sub03"><a href="javascript:;"></a></li>
+                <li class="outdoor_sub04"><a href="javascript:;"></a></li>
+                <li class="outdoor_sub05"><a href="javascript:;"></a></li>
+
+                <li class="indoor"><a href="javascript:;"></a></li>
+                <li class="indoor_sub01"><a href="javascript:;"></a></li>
+                <li class="indoor_sub02"><a href="javascript:;"></a></li>
+                <li class="indoor_sub03"><a href="javascript:;"></a></li>
+                <li class="indoor_sub04"><a href="javascript:;"></a></li>
+                <li class="indoor_sub05"><a href="javascript:;"></a></li>
+                <li class="indoor_sub06"><a href="javascript:;"></a></li>
+                <li class="indoor_sub07"><a href="javascript:;"></a></li>
+                <li class="indoor_sub08"><a href="javascript:;"></a></li>
+                <li class="indoor_sub09"><a href="javascript:;"></a></li>
+                <li class="indoor_sub10"><a href="javascript:;"></a></li>
+                <li class="indoor_sub11"><a href="javascript:;"></a></li>
+                <li class="indoor_sub12"><a href="javascript:;"></a></li>
+                <li class="indoor_sub13"><a href="javascript:;"></a></li>
+            </ul>
+            <span>
+                <img src="./images/common/left_bn_01_img.jpg"/>
+                <a href="http://shinsungeco.com/pdf/SECOLED.pdf"><img src="./images/common/left_bn_02_info.jpg"/></a>
+                <a href="http://shinsungeco.com/bbs/zboard.php?id=online"><img src="./images/common/left_bn_03_request.jpg"/></a>
+            </span>
+        </div>
+        <div id="content">
+            <img src="./images/sub/introduce_txt.jpg"/>
+            <span>
+                <img src="./images/common/sub_location_icon.jpg"/>
+                <img src="./images/common/sub_location_arrow.jpg"/>
+                <img src="./images/sub/sub_location_01.jpg"/>
+                <img src="./images/common/sub_location_arrow.jpg"/>
+                <img src="./images/sub/sub_location_01_01.jpg"/>
+            </span>
+            <hr/>
+            <img class="main_img" src="./images/sub/product_body_01.jpg"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer">
+        <hr/>
+        <img class="address" src="./images/common/footer_0.jpg"/>
+        <img class="alignright" src="./images/common/footer_1.jpg"/>
+    </div>
+</body>
+</html>

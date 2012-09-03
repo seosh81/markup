@@ -1,0 +1,337 @@
+body {
+    font-size: 1.4em;
+    line-height: 1.7;
+}
+a {
+    color:gray;
+    text-decoration: none;
+}
+img.alignright {
+    float: right;
+}
+#hair {
+    background: url("../images/common/top_bg.jpg") repeat-x;
+    padding: 2px 0 2px 0;
+    margin: 0;
+    font-size: 0.8em;
+    min-height: 17px;
+    line-height: 30px;
+}
+#hair ul {
+    width: 940px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: right;
+    font-size: 0.7em;
+}
+#hair li {
+    display: inline;
+    margin: 0 0 0 -3px;
+    padding: 0;
+}
+#hair li:first-child:before {
+    content: "";
+}
+#hair li:before {
+    content: "|";
+}
+#hair li a {
+    padding-left: 1px;
+    font-size: 0.8em;
+}
+#nav {
+    width: 940px;
+    margin: 0 auto;
+}
+#nav a.logo {
+    background: url("../images/common/top_logo.jpg") no-repeat;
+    height: 81px;
+    width: 130px;
+    float: left;
+    margin-left: 1px;
+}
+#nav ul {
+    width: 810px;
+    margin: 0 0 0 263px;
+}
+#nav li {
+    text-align: right;
+    float: left;
+}
+#nav li a {
+    display: block;
+    height: 26px;
+    margin-top: 28px;
+}
+
+#nav li.introduce {
+    width: 123px;
+}
+#nav li.product {
+    margin-left: 25px;
+    width: 102px;
+}
+
+#nav li.portfolio {
+    margin-left: 25px;
+    width: 121px;
+}
+
+#nav li.community {
+    margin-left: 25px;
+    width: 129px;
+}
+
+#nav li.contact {
+    margin-left: -3px;
+    width: 129px;
+}
+
+#mainLogo_wrapper {
+    background: url("../images/common/bg_img.gif") no-repeat center;
+}
+
+#mainLogo {
+    width: 940px;
+    margin: 0 auto;
+    height: 152px;
+    background: url("../images/sub/sub02_visual.jpg") no-repeat;
+}
+
+#main {
+    width: 940px;
+    margin: 40px auto 0;
+}
+
+#sidebar {
+    width: 193px;
+    float: left;
+}
+#sidebar li {
+    margin-bottom: 22px;
+}
+#sidebar li a {
+    display: block;
+    width: 193px;
+    height: 23px;
+}
+
+#sidebar li.factory {
+    background: url("../images/left/left_menu02_00_off.jpg") no-repeat;
+}
+#sidebar li.factory a:hover {
+    background: url("../images/left/left_menu02_00_on.jpg") no-repeat;
+}
+#sidebar li.factory_sub01 {
+    background: url("../images/left/left_menu02_00_01_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.factory_sub01 a:hover {
+    background: url("../images/left/left_menu02_00_01_on.jpg") no-repeat;
+}
+#sidebar li.factory_sub02 {
+    background: url("../images/left/left_menu02_00_02_off.jpg") no-repeat;
+}
+#sidebar li.factory_sub02 a:hover {
+    background: url("../images/left/left_menu02_00_02_on.jpg") no-repeat;
+}
+#sidebar li.outdoor {
+    background: url("../images/left/left_menu02_01_off.jpg") no-repeat;
+}
+#sidebar li.outdoor a:hover {
+    background: url("../images/left/left_menu02_01_on.jpg") no-repeat;
+}
+#sidebar li.outdoor_sub01 {
+    background: url("../images/left/left_menu02_01_01_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.outdoor_sub01 a:hover {
+    background: url("../images/left/left_menu02_01_01_on.jpg") no-repeat;
+}
+#sidebar li.outdoor_sub02 {
+    background: url("../images/left/left_menu02_01_02_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.outdoor_sub02 a:hover {
+    background: url("../images/left/left_menu02_01_02_on.jpg") no-repeat;
+}
+#sidebar li.outdoor_sub03 {
+    background: url("../images/left/left_menu02_01_03_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.outdoor_sub03 a:hover {
+    background: url("../images/left/left_menu02_01_03_on.jpg") no-repeat;
+}
+#sidebar li.outdoor_sub04 {
+    background: url("../images/left/left_menu02_01_04_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.outdoor_sub04 a:hover {
+    background: url("../images/left/left_menu02_01_04_on.jpg") no-repeat;
+}
+#sidebar li.outdoor_sub05 {
+    background: url("../images/left/left_menu02_01_05_off.jpg") no-repeat;
+}
+#sidebar li.outdoor_sub05 a:hover {
+    background: url("../images/left/left_menu02_01_05_on.jpg") no-repeat;
+}
+
+#sidebar li.indoor {
+    background: url("../images/left/left_menu02_02_off.jpg") no-repeat;
+}
+#sidebar li.indoor a:hover {
+    background: url("../images/left/left_menu02_02_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub01 {
+    background: url("../images/left/left_menu02_02_01_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub01 a:hover {
+    background: url("../images/left/left_menu02_02_01_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub02 {
+    background: url("../images/left/left_menu02_02_02_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub02 a:hover {
+    background: url("../images/left/left_menu02_02_02_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub03 {
+    background: url("../images/left/left_menu02_02_03_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub03 a:hover {
+    background: url("../images/left/left_menu02_02_03_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub04 {
+    background: url("../images/left/left_menu02_02_04_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub04 a:hover {
+    background: url("../images/left/left_menu02_02_04_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub05 {
+    background: url("../images/left/left_menu02_02_05_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub05 a:hover {
+    background: url("../images/left/left_menu02_02_05_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub06 {
+    background: url("../images/left/left_menu02_02_06_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub06 a:hover {
+    background: url("../images/left/left_menu02_02_06_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub07 {
+    background: url("../images/left/left_menu02_02_07_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub07 a:hover {
+    background: url("../images/left/left_menu02_02_07_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub08 {
+    background: url("../images/left/left_menu02_02_08_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub08 a:hover {
+    background: url("../images/left/left_menu02_02_08_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub09 {
+    background: url("../images/left/left_menu02_02_09_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub09 a:hover {
+    background: url("../images/left/left_menu02_02_09_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub10 {
+    background: url("../images/left/left_menu02_02_10_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub10 a:hover {
+    background: url("../images/left/left_menu02_02_10_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub11 {
+    background: url("../images/left/left_menu02_02_11_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub11 a:hover {
+    background: url("../images/left/left_menu02_02_11_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub12 {
+    background: url("../images/left/left_menu02_02_12_off.jpg") no-repeat;
+    margin-bottom: 0px;
+}
+#sidebar li.indoor_sub12 a:hover {
+    background: url("../images/left/left_menu02_02_12_on.jpg") no-repeat;
+}
+#sidebar li.indoor_sub13 {
+    background: url("../images/left/left_menu02_02_13_off.jpg") no-repeat;
+}
+#sidebar li.indoor_sub13 a:hover {
+    background: url("../images/left/left_menu02_02_13_on.jpg") no-repeat;
+}
+
+
+
+#sidebar li.history a:hover {
+    background: url("../images/left/left_menu01_02_on.jpg") no-repeat;
+}
+#sidebar li.auth {
+    background: url("../images/left/left_menu01_03_off.jpg") no-repeat;
+}
+#sidebar li.auth a:hover {
+    background: url("../images/left/left_menu01_03_on.jpg") no-repeat;
+}
+#sidebar li.map {
+    background: url("../images/left/left_menu01_04_off.jpg") no-repeat;
+}
+#sidebar li.map a:hover {
+    background: url("../images/left/left_menu01_04_on.jpg") no-repeat;
+}
+
+#sidebar span {
+    margin-top: 72px;
+    display: block;
+    width: 193px;
+    text-align: center;
+}
+
+#content {
+    float: right;
+    width: 720px;
+    margin-left: 27px;
+}
+
+#content span {
+    float:right;
+    margin-top: -10px;
+}
+#content hr {
+    margin: 18px 0 0;
+}
+#content img.main_img {
+    margin-top: 31px;
+}
+
+#factory #sidebar li.factory {
+    background: url("../images/left/left_menu02_00_on.jpg") no-repeat;
+}
+#outdoor #sidebar li.outdoor {
+    background: url("../images/left/left_menu02_01_on.jpg") no-repeat;
+}
+#indoor #sidebar li.indoor {
+    background: url("../images/left/left_menu02_02_on.jpg") no-repeat;
+}
+.clear {
+    clear: both;
+}
+
+#footer {
+    width: 940px;
+    margin: 50px auto 20px;
+}
+#footer img.address {
+    margin-top: 42px;
+}
